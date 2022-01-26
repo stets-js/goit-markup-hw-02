@@ -184,3 +184,55 @@ body {
 .footer-list a:focus {
   color: #ffffff;
 }
+
+/* ******************************** PORTFOLIO ************************** */
+/*********************************** PAGE ****************************** */
+.title-portfolio {
+  display: none;
+}
+
+.button-list-portfolio {
+  padding-left: 0;
+  text-align: center;
+}
+
+.button-list-portfolio button {
+  border-radius: 4px;
+  border-style: none;
+  cursor: pointer;
+
+  background-color: #f5f4fa;
+  color: var(--title-text);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+}
+.button-list-portfolio li {
+  list-style-type: none;
+  display: inline;
+}
+
+.button-list-portfolio button:hover,
+.button-list-portfolio button:focus {
+  color: #ffffff;
+  background-color: var(--accent);
+}
+
+.works-portfolio h1 {
+  display: none;
+}
+.works-portfolio li {
+  list-style-type: none;
+  color: var(--main-text);
+  font-size: 16px;
+  line-height: 1.87;
+}
+.works-portfolio h2 {
+  color: var(--title-text);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
