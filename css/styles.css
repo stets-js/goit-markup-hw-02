@@ -27,6 +27,9 @@ body {
 .logo span {
   color: var(--accent);
 }
+.current {
+  color: var(--accent);
+}
 .nav-list {
   list-style-type: none;
   padding-left: 0;
@@ -37,6 +40,9 @@ body {
 .nav-list a {
   text-decoration: inherit;
   color: var(--title-text);
+}
+.nav-list .current {
+  color: var(--accent);
 }
 
 .nav-list a:hover,
@@ -99,6 +105,7 @@ body {
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
+  font-size: 14px;
 }
 
 .benefits-list {
@@ -174,15 +181,15 @@ body {
 .footer-list a {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: inherit;
-}
-.footer-list address {
-  color: #ffffff;
   font-family: inherit;
-  font-style: inherit;
+  font-style: normal;
+}
+.footer-list .address {
+  color: #ffffff;
 }
 .footer-list a:hover,
 .footer-list a:focus {
-  color: #ffffff;
+  color: var(--accent);
 }
 
 /* ******************************** PORTFOLIO ************************** */
